@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 268706286}
+  selectedFlowchart: {fileID: 677896131}
 --- !u!4 &148750249
 Transform:
   m_ObjectHideFlags: 1
@@ -753,6 +753,8 @@ GameObject:
   - component: {fileID: 677896129}
   - component: {fileID: 677896130}
   - component: {fileID: 677896133}
+  - component: {fileID: 677896135}
+  - component: {fileID: 677896134}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -899,8 +901,9 @@ MonoBehaviour:
   itemId: 0
   blockName: New Block
   description: 
-  eventHandler: {fileID: 0}
-  commandList: []
+  eventHandler: {fileID: 677896135}
+  commandList:
+  - {fileID: 677896134}
   suppressAllAutoSelections: 0
 --- !u!114 &677896131
 MonoBehaviour:
@@ -926,8 +929,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 677896130}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 677896129}
@@ -973,6 +975,41 @@ MonoBehaviour:
   scope: 1
   key: BallCollider
   value: {fileID: 677896132}
+--- !u!114 &677896134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677896122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &677896135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677896122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 677896130}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &733502386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,8 +1398,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1153426563}
-  selectedCommands:
-  - {fileID: 1153426571}
+  selectedCommands: []
   variables:
   - {fileID: 1153426569}
   description: 
