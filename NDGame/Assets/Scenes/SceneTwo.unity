@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 584249949}
+  selectedFlowchart: {fileID: 369544720}
 --- !u!4 &89226838
 Transform:
   m_ObjectHideFlags: 1
@@ -841,9 +841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: '(In lost remorse)
-
-    Fuck.'
+  storyText: Fuck.
   description: 
   character: {fileID: 482735289}
   portrait: {fileID: 0}
@@ -1035,10 +1033,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: '(Apologetically)
-
-    I know. I know. I know, and I thought I was doing
-    the right thing, and I now know I wasn''t.'
+  storyText: I know. I know, and I thought I was doing the right thing, and now I
+    know I wasn't.
   description: 
   character: {fileID: 482735289}
   portrait: {fileID: 0}
@@ -1065,10 +1061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: '(Emotionally)
-
-    Yeah well, you should have thought about all of
-    this before you levelled an entire block!'
+  storyText: Yeah well, you should have thought about all of this before you levelled
+    an entire block!
   description: 
   character: {fileID: 1966690975}
   portrait: {fileID: 0}
@@ -1123,10 +1117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: '(Matching tone)
-
-    Yes, there is Ellie, just... come back, come back
-    to the house. '
+  storyText: 'Yes, there is Ellie, just... come back, come back to the house. '
   description: 
   character: {fileID: 482735289}
   portrait: {fileID: 0}
@@ -1153,9 +1144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: '(Sternly)
-
-    There''s nothing to talk about Colin.'
+  storyText: There's nothing to talk about Colin.
   description: 
   character: {fileID: 1966690975}
   portrait: {fileID: 0}
@@ -1345,8 +1334,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 369544719}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 

@@ -245,9 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: '(In question)
-
-    We can''t just walk in there!'
+  storyText: We can't just walk in there!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -356,9 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: '(Voice raised)
-
-    Colin how?'
+  storyText: Colin how!?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -385,9 +381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: '(Stunned)
-
-    How?'
+  storyText: How?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -414,9 +408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: '(Out of breath)
-
-    They have Theo. They have Theo.'
+  storyText: They have Theo. They have Theo.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -470,9 +462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: '(Hurried and tired)
-
-    Ellie!'
+  storyText: Ellie!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -499,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Colin is seen running around the market ruins, looking for Ellie.
+  storyText: Colin search's for Ellie among the people.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -588,8 +578,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 28104979}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
