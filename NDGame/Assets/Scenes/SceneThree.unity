@@ -485,7 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1224172839}
+  selectedFlowchart: {fileID: 752527094}
 --- !u!4 &128788854
 Transform:
   m_ObjectHideFlags: 1
@@ -2207,8 +2207,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 752527093}
+  selectedCommands:
+  - {fileID: 752527098}
   variables: []
   description: 
   stepPause: 0
@@ -2339,7 +2341,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 1
-  storyText: Colin enters the kitchen and sees the insignia used by Raz and the business.
+  storyText: Colin enters the kitchen and sees the insignia used by Raz and the business
+    on the table.
   description: 
   character: {fileID: 211213718}
   portrait: {fileID: 0}
@@ -6234,7 +6237,7 @@ MonoBehaviour:
   indentLevel: 1
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: SceneFour
+    stringVal: SceneInbetween
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1614804207
