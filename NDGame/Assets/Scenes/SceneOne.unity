@@ -3853,6 +3853,7 @@ GameObject:
   - component: {fileID: 843723893}
   - component: {fileID: 843723894}
   - component: {fileID: 843723895}
+  - component: {fileID: 843723896}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4819,6 +4820,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 843723894}
   - {fileID: 843723883}
+  - {fileID: 843723896}
   suppressAllAutoSelections: 0
 --- !u!114 &843723886
 MonoBehaviour:
@@ -4845,9 +4847,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 843723860}
-  selectedCommands:
-  - {fileID: 843723895}
+  - {fileID: 843723885}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5033,6 +5034,33 @@ MonoBehaviour:
     booleanVal: 1
   animatorOLD: {fileID: 0}
   parameterNameOLD: 
+--- !u!114 &843723896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843723838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 89
+  indentLevel: 0
+  storyText: Talk to Raz
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &994408800
 GameObject:
   m_ObjectHideFlags: 0
@@ -5451,8 +5479,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1227461535}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -7141,7 +7168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1227461536}
+  selectedFlowchart: {fileID: 2062880443}
 --- !u!4 &1732332850
 Transform:
   m_ObjectHideFlags: 1
@@ -8908,7 +8935,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062880438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1745143, y: -1.005136, z: 0.06396203}
+  m_LocalPosition: {x: -3.22, y: -1.005136, z: 0.06396203}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
